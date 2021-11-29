@@ -61,8 +61,8 @@ for aS in allStrats:
 for aS in allStrats:  
     retDf['cum_'+aS]=retDf['cum_'+aS]-retDf.loc[0]['cum_'+aS]
 
-w1=1500;w2=1000
-h1=500;h2=600
+w1=750;w2=500
+h1=250;h2=300
 px.defaults.template = "plotly_dark"
 plotly_theme="seaborn"
 retDf['color']="green"
